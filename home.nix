@@ -19,8 +19,8 @@
   # environment.
   home.packages = [
     pkgs.direnv
-    pkgs.rnix-lsp
-    pkgs.nodejs-16_x
+    pkgs.nil
+    pkgs.nodejs-18_x
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
