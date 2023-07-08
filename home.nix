@@ -19,6 +19,7 @@
   # environment.
   home.packages = [
     pkgs.direnv
+    pkgs.iperf
     pkgs.nil
     pkgs.nodejs-18_x
   ];
