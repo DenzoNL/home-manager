@@ -13,7 +13,7 @@
   # You should not change this value, even if you update Home Manager. If you do
   # want to update the value, then make sure to first check the Home Manager
   # release notes.
-  home.stateVersion = "22.11"; # Please read the comment before changing.
+  home.stateVersion = "23.11"; # Please read the comment before changing.
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
@@ -22,6 +22,7 @@
     pkgs.iperf
     pkgs.nil
     pkgs.nodejs-18_x
+    pkgs.jdk
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
